@@ -49,9 +49,11 @@ Below is a simplified overview to help you understand the dataset and the script
 ---
 
 ##  Repository Contents
-- You can donwload and unzip the dataset by running:
-  ```bash
+- You can download and unzip the dataset by running:
+```bash
 python downloading.py
+```
+
 - `load_data.py` → Scripts to load EEG, EOG, audio, and accelerometer signals.  
 - `preprocess_data.py` → Basic preprocessing utilities.  
 - Example Jupyter notebooks for data exploration and preprocessing workflows.  
