@@ -49,9 +49,11 @@ Below is a simplified overview to help you understand the dataset and the script
 ---
 
 ##  Repository Contents
-- You can download and unzip the dataset by running:
+- Download and unzip the dataset by running the following command.  
+  You can specify the paths where the ZIP file will be saved and where the contents will be extracted:
+
 ```bash
-python downloading.py
+python downloading.py --output_zip /path/to/save/EEG_Freewill_Reaching_Grasping.zip --extract_dir /path/to/extract/EEG_Dataset
 ```
 
 - `load_data.py` → Scripts to load EEG, EOG, audio, and accelerometer signals.  
