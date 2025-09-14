@@ -67,8 +67,26 @@ cd Freewill_Reaching_Grasping/derivatives/matfiles
 
 ## Folder Structure  
 
-The `derivatives/matfiles/` directory is organized by **subject** and **session**. Each session contains a single `.mat` file with compiled EEG and event data.  
+```text
+derivatives/matfiles/
+├── sub-01/
+│   ├── ses-01/
+│   │   └── sub-01_ses-01_task-reachingandgrasping_eeg.mat
+│   ├── ses-02/
+│   │   └── sub-01_ses-02_task-reachingandgrasping_eeg.mat
+│   
+├── sub-02/
+│   ├── ses-01/
+│   │   └── sub-02_ses-01_task-reachingandgrasping_eeg.mat
+│
+...
+├── sub-23/
+│   ├── ses-01/
+│   │   └── sub-23_ses-01_task-reachingandgrasping_eeg.mat
+│   ├── ses-02/
+│   │   └── sub-23_ses-02_task-reachingandgrasping_eeg.mat
 
+```
 
 
 
