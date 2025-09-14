@@ -53,8 +53,39 @@ Below is a simplified overview to help you understand the dataset and the script
   You can specify the paths where the ZIP file will be saved and where the contents will be extracted:
 
 ```bash
-python downloading.py --output_zip /path/to/save/EEG_Freewill_Reaching_Grasping.zip --extract_dir /path/to/extract/EEG_Dataset
+python downloading.py --output_zip /path/to/save/Freewill_EEG_Reaching_Grasping.zip --extract_dir /path/to/extract/EEG_Dataset
 ```
+
+#### Accessing the raw data 
+
+Once you have downloaded and unzipped the dataset, you will find the main folder named `Frewill_Reaching_Grasping`. Inside this folder, navigate to the `derivatives/matfiles` directory. This folder contains **session-wise EEG recordings** and **event files**, organized by subject.
+
+```bash
+
+cd Freewill_Reaching_Grasping/derivatives/matfiles
+```
+
+#### Tree view folder structure 
+
+derivatives/matfiles/
+├── sub-01/
+│ ├── ses-01/
+│ │ └── sub-01_ses-01_task-reachingandgrasping_eeg.mat
+│ ├── ses-02/
+│   └── sub-01_ses-02_task-reachingandgrasping_eeg.mat
+│ 
+├── sub-02/
+│ ├── ses-01/
+│ │ └── sub-02_ses-01_task-reachingandgrasping_eeg.mat
+...
+├── sub-23/
+│ ├── ses-01/
+│ │ └── sub-23_ses-01_task-reachingandgrasping_eeg.mat
+│ ├── ses-02/
+│ │ └── sub-23_ses-02_task-reachingandgrasping_eeg.mat
+
+
+
 
 - `load_data.py` → Scripts to load EEG, EOG, audio, and accelerometer signals.  
 - `preprocess_data.py` → Basic preprocessing utilities.  
