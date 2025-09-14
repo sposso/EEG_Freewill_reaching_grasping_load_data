@@ -88,6 +88,10 @@ derivatives/matfiles/
 
 ```
 
+Each `.mat` file follows the naming pattern:  sub-xx_ses-yy_task-reachingandgrasping_eeg.mat
+where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03`).  
+
+
 
 
 
