@@ -91,10 +91,9 @@ derivatives/matfiles/
 Each `.mat` file follows the naming pattern:  sub-xx_ses-yy_task-reachingandgrasping_eeg.mat
 where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03`).  
 
-- `load_data.py` → Scripts to load the EEG data in a nested dictionary of the following form:
+- `load_data.py` → This script defines the function  `load_reaching_grasping_data`, which loads the dataset into a nested dictionary with the following structure:
 
 ```text
-
 {
             'sub-01': {
                 'ses-01': <mat data>,
@@ -107,8 +106,6 @@ where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03
             ...
         }
 ```
-    
- 
 
 ---
 
