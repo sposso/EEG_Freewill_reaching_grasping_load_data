@@ -91,14 +91,24 @@ derivatives/matfiles/
 Each `.mat` file follows the naming pattern:  sub-xx_ses-yy_task-reachingandgrasping_eeg.mat
 where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03`).  
 
+- `load_data.py` → Scripts to load the EEG data in a nested dictionary of the following form:
 
+```text
 
-
-
-
-- `load_data.py` → Scripts to load EEG, EOG, audio, and accelerometer signals.  
-- `preprocess_data.py` → Basic preprocessing utilities.  
-- Example Jupyter notebooks for data exploration and preprocessing workflows.  
+{
+            'sub-01': {
+                'ses-01': <mat data>,
+                'ses-02': <mat data>
+            },
+            'sub-02': {
+                'ses-01': <mat data>,
+                ...
+            },
+            ...
+        }
+```
+    
+ 
 
 ---
 
