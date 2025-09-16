@@ -108,6 +108,20 @@ where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03
 ```
 
 ---
+# Preprocess
+
+Why freewill movement? 
+In the idea state of a BMI, it can accurately discern a subject's body movement intents, and output smooth, accurate control to external devices, such as neural prosthesis. 
+EEG signals have sufficient information to decode the kinematics parameters of voluntary movements? It is necessary imrpoving motion feature extraction. 
+
+Types of EEG to detect motor intertention:
+
+Movement-related cortical potentials (MRCPs) is a brain signal that can be recorded using surface EEG and represents the cortical processes involved in movement preparation. It event-related potential can be recorded over various centroparietal brain regions prior to, and at the onset, voluntary movement[^1]. 
+
+
+---
+[^1]: Electroencephalographic Recording of the Movement-Related Cortical Potential in Ecologically Valid Movements: A Scoping Review
+---
 
 ##  Citation
 If you use this dataset, please cite the original study:  
