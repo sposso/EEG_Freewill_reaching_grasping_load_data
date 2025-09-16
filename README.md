@@ -43,7 +43,7 @@ Below is a simplified overview to help you understand the dataset and the script
 ## Recording Structure
 - **Recordings**: Most subjects completed 2–3 recordings on different days.  
   - Exceptions: **BCX014** and **PYW942** completed only 1 recording.  
-- **Sessions**: Each recording contained **3–7 sessions** with short breaks (2–5 min) between them.  
+- **Sessions**: Each recording contained **2–3 sessions** with short breaks (2–5 min) between them.  
 - **Trials**: Each session included **20–35 trials**.  
 
 ---
