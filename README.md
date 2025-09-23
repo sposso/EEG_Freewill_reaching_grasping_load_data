@@ -118,19 +118,29 @@ Types of EEG to detect motor intention:
 
 Movement-related cortical potentials (MRCPs) are a brain signal that can be recorded using surface EEG and represent the cortical processes involved in movement preparation. The event-related potential can be recorded over various centroparietal brain regions before and at the onset of voluntary movement[^1]. 
 
-MRCP components:
+ Premovement Components of MRC for self-paced movements. 
+ The concept of premovement indicates the time when no muscle movement is evident, but the subject is fully familiar with the action he is going to perform in the near future [^2]
   - **Readiness Potential (RP)** /**Bereitschaftspotential (BP) **: This slow negative potential begins 2 s before movement onset (Initial BP). It is associated with movement planning
-    and preparation, mostly generated in the pre-supplementary motor area  and shortly thereafter in the lateral premotor cortex bilaterally[^2].
-  - **Late BP or Negative Slope**: a sTEPPER NEGATIVE SLOPE HAPPENS ABOUT 400 MS before the movement onset occurs in the contralateral primary cortex and lateral premotor cortex with precise somatotopy
-  - **Motor Potential (MP)** Peaks around the time of movement execution. Localized to the contralateral primary cortex and represents the moment of motor command output.
-  - **Movement-Monitoring Potential (MMP)**: Follows the motor potential and is interpreted as feedback processing after the movement.
-  - **Parietal Peak of Motor Potential (ppMP)**: Sensory-motor integration.
+    and preparation, mostly generated in the pre-supplementary motor area  and shortly thereafter in the lateral premotor cortex bilaterally[^3].
+  - **Late BP or Negative Slope**: A stepper negative slope happens about 400 MS before the movement onset occurs in the contralateral premotor cortex (Area 6, C1 or C2 for the hand movement) and primary premotor cortex (Area 4). 
+  - **Motor Potential (MP) or N-10** Peaks around the time of movement execution. Localized to the contralateral M1 (Area 4) and represents the moment of motor command output.
+
+Recording MRCPs
+The MRCPs can easly masked by activity in the higher frequency bands because its amplitude typycally lies between 5 and 30 $mu
+
+Event-related desynchronization (ERD) refers to a temporary reduction in the power of rhythmic brain activity, particularly within a specific frequency band. This decrease in  rhythmic power usually occurs in response to or in anticipation  of an event.
+In contrast to early BP that starts bilaterally and becomes larger over the contralateral central region toward the movement onset ( late BP), ERD, at least for the right-hand movement in the right-handed subjects, ERD starts over the left hemisphere and then spreads bilaterally.
+ERD exhibits different behavior depending on the frequency band  in self-initiated hand movements. ERD around 10 Hz starts about 2 s before the movement onset bilaterally at the sensory motor areas, and 20 Hz ERD appears later and is localized more anteriorly with contralateral predominance.
+
+
+
     
 
 
 ---
 [^1]: Electroencephalographic Recording of the Movement-Related Cortical Potential in Ecologically Valid Movements: A Scoping Review
-[^2]: Shibasaki, H., & Hallett, M. (2006). What is the Bereitschaftspotential?. Clinical neurophysiology, 117(11), 2341-2356.
+[^2]: Shakeel, A., Navid, M. S., Anwar, M. N., Mazhar, S., Jochumsen, M., & Niazi, I. K. (2015). A review of techniques for the detection of movement intention using movement‐related cortical potentials. Computational and mathematical methods in medicine, 2015(1), 346217.
+[^3]: Shibasaki, H., & Hallett, M. (2006). What is the Bereitschaftspotential?. Clinical neurophysiology, 117(11), 2341-2356.
 ---
 
 ##  Citation
