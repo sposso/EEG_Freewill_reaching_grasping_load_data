@@ -111,16 +111,26 @@ where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03
 # Preprocess
 
 Why freewill movement? 
-In the idea state of a BMI, it can accurately discern a subject's body movement intents, and output smooth, accurate control to external devices, such as neural prosthesis. 
-EEG signals have sufficient information to decode the kinematics parameters of voluntary movements? It is necessary imrpoving motion feature extraction. 
+In the ideal state of a BMI, it can accurately discern a subject's body movement intentions and output smooth, accurate control to external devices, such as a neural prosthesis. Do 
+EEG signals have sufficient information to decode the kinematics parameters of voluntary movements? It is necessary to improve motion feature extraction. 
 
-Types of EEG to detect motor intertention:
+Types of EEG to detect motor intention:
 
-Movement-related cortical potentials (MRCPs) is a brain signal that can be recorded using surface EEG and represents the cortical processes involved in movement preparation. It event-related potential can be recorded over various centroparietal brain regions prior to, and at the onset, voluntary movement[^1]. 
+Movement-related cortical potentials (MRCPs) are a brain signal that can be recorded using surface EEG and represent the cortical processes involved in movement preparation. The event-related potential can be recorded over various centroparietal brain regions before and at the onset of voluntary movement[^1]. 
+
+MRCP components:
+  - **Readiness Potential (RP)** /**Bereitschaftspotential (BP) **: This slow negative potential begins 2 s before movement onset (Initial BP). It is associated with movement planning
+    and preparation, mostly generated in the pre-supplementary motor area  and shortly thereafter in the lateral premotor cortex bilaterally[^2].
+  - **Late BP or Negative Slope**: a sTEPPER NEGATIVE SLOPE HAPPENS ABOUT 400 MS before the movement onset occurs in the contralateral primary cortex and lateral premotor cortex with precise somatotopy
+  - **Motor Potential (MP)** Peaks around the time of movement execution. Localized to the contralateral primary cortex and represents the moment of motor command output.
+  - **Movement-Monitoring Potential (MMP)**: Follows the motor potential and is interpreted as feedback processing after the movement.
+  - **Parietal Peak of Motor Potential (ppMP)**: Sensory-motor integration.
+    
 
 
 ---
 [^1]: Electroencephalographic Recording of the Movement-Related Cortical Potential in Ecologically Valid Movements: A Scoping Review
+[^2]: Shibasaki, H., & Hallett, M. (2006). What is the Bereitschaftspotential?. Clinical neurophysiology, 117(11), 2341-2356.
 ---
 
 ##  Citation
