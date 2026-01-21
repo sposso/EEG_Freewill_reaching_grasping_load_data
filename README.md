@@ -132,7 +132,7 @@ Movement-related cortical potentials (MRCPs) are a brain signal that can be reco
   - **Late BP or Negative Slope**: A stepper negative slope happens about 400 MS before the movement onset occurs in the contralateral premotor cortex (Area 6, C1 or C2 for the hand movement) and primary premotor cortex (Area 4). 
   - **Motor Potential (MP) or N-10** Peaks around the time of movement execution. Localized to the contralateral M1 (Area 4) and represents the moment of motor command output.
 
-Recording MRCPs
+## Recording MRCPs
 The MRCPs can easily be  masked by activity in the higher frequency bands because their amplitude typically lies between 5 and 30  μV and only occurs at frequencies of around 0-50 Hz,
 
 Event-related desynchronization (ERD) refers to a temporary reduction in the power of rhythmic brain activity, particularly within a specific frequency band. This decrease in  rhythmic power usually occurs in response to or in anticipation  of an event.
