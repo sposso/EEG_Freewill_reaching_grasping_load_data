@@ -107,7 +107,7 @@ where `xx` = subject number (`01`–`23`), and `yy` = session number (`01`–`03
         }
 ```
 - Additionally, `data_function.py` contains auxiliary functions such as:
-  - `extract_war_features`  takes EEG trial data arranged as trials × channels × time, then for each trial it concatenates the  channel waveforms end-to-end into a single 1D feature vector. It returns a 2D array where each row is one trial's concatenated raw-channel waveform.
+  - `extract_raw_features`  takes EEG trial data arranged as trials × channels × time, then for each trial it concatenates the  channel waveforms end-to-end into a single 1D feature vector. It returns a 2D array where each row is one trial's concatenated raw-channel waveform.
   - `DownSample_antialias_spline` downsamples a signal with anti-aliasing using a low-pass IIR filter, then resamples via cubic spline interpolation to target_fs.
   - `Plot_EPRs` plots event-related potentials.
 
